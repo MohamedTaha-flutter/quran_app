@@ -5,6 +5,7 @@ import 'package:quran_app/features/play_list_feature/presentation/widget/audio_t
 class PlaylistView extends StatelessWidget {
   const PlaylistView({super.key});
 
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -25,9 +26,10 @@ class PlaylistView extends StatelessWidget {
                 ],
               ),
               AudioTileWidget(
-                  title: 'Al-Fatihah',
-                  artist: 'AbdulBaset AbdulSamad [Warsh]',
-                  audioPath: 'quran/1.mp3',
+                title: 'Al-Fatihah',
+                artist: 'AbdulBaset AbdulSamad [Warsh]',
+                audioPath: 'quran/1.mp3',
+                image: 'assets/images/1.jpg',
               ),
             ],
           ),
