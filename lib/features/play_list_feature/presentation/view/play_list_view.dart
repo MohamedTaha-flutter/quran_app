@@ -24,7 +24,11 @@ class PlaylistView extends StatelessWidget {
                   ),
                 ],
               ),
-              AudioTileWidget(title: 'fagr', artist: '1125',)
+              AudioTileWidget(
+                  title: 'Al-Fatihah',
+                  artist: 'AbdulBaset AbdulSamad [Warsh]',
+                  audioPath: 'quran/1.mp3',
+              ),
             ],
           ),
         ),
@@ -32,7 +36,3 @@ class PlaylistView extends StatelessWidget {
     );
   }
 }
-
-
-
-
